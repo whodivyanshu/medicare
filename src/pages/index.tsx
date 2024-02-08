@@ -13,14 +13,17 @@ export default function Home() {
           <Image src={logo} alt="logo" width={250} height={100} />
         </div>
         <div className="w-2/6 flex justify-center items-center">
-          <input className="w-4/5 p-2" placeholder="Search for products" />
+          <input
+            className="w-full p-2 rounded-md"
+            placeholder="Search for products"
+          />
         </div>
         <div className="flex w-2/6 justify-center items-center">
-          <div className="flex">
+          <div className="flex justify-center items-center">
             <FaPhoneAlt />
             <p>(866) 563-6812</p>
           </div>
-          <div className="flex">
+          <div className="flex ">
             <FaUser />
             Login | Register
           </div>
