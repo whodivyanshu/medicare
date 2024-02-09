@@ -104,6 +104,127 @@ export const ProductComponent = () => {
           </div>
         </div>
       </div>
+      <div className="px-10 mt-5 ">
+        <button className="text-secondary p-5 border bg-gray-300 ">
+          Features
+        </button>
+        <button className="text-secondary p-5 border bg-gray-300 ">
+          Sizing
+        </button>
+        <button className="text-secondary p-5 border bg-gray-300 ">
+          Warranty
+        </button>
+        <button className="text-secondary p-5 border bg-gray-300 ">
+          Returns
+        </button>
+        <div className="border py-10 px-3">
+          <p className="mb-4">
+            3M Coban latex free Self-Adherent Wrap is a cohesive elastic wrap
+            constructed from a nonwoven material and elastic fibers. The
+            cohesive properties allow the wrap to stick to itself but not to
+            other materials or skin. Coban Cohesive Bandage is intended for use
+            as an elastic wrap to provide compression or support, or to secure
+            dressings or devices.
+          </p>
+          <h1 className="text-lg font-bold">Features</h1>
+          <ul className="list-disc ml-10">
+            <li>Lightweight, porous and comfortable for patients</li>
+            <li>Hand tearable - eliminates the need for scissors or cutting</li>
+            <li>
+              Wrap stays in place; eliminates the need for frequent readjustment
+            </li>
+            <li>
+              Versatile - used to secure and protect primary dressings and other
+              devices
+            </li>
+            <li>Also helps immobilize injuries and provide compression</li>
+            <li>Sticks to itself; no pins or clips required</li>
+          </ul>
+          <hr className="my-5" />
+          <table className="w-1/2">
+            <tbody>
+              <tr>
+                <td>Brand</td>
+                <td>3M Coban LF</td>
+              </tr>
+              <tr>
+                <td>Application</td>
+                <td>Cohesive Bandage</td>
+              </tr>
+              <tr>
+                <td>Manufacturer</td>
+                <td>3M</td>
+              </tr>
+              <tr>
+                <td>Material</td>
+                <td>Nonwoven / Elastic</td>
+              </tr>
+              <tr>
+                <td>Closure </td>
+                <td> Self-adherent Closure</td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td>Standard Compression</td>
+              </tr>
+              <tr>
+                <td>UNSPSC Code</td>
+                <td>42311506</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr className="my-5" />
+          <ul className="list-disc ml-10">
+            <li>
+              The product warranty is applicable as per the terms and conditions
+              provided by the product manufacturer.
+            </li>
+          </ul>
+          <h1 className="font-bold  ml-10">
+            Please call us for specific details.
+          </h1>
+          <hr className="my-5" />
+          <ul className="list-disc ml-10">
+            <li>
+              No returns will be accepted after 30 days from the date of
+              shipment.
+            </li>
+            <li>
+              All returns are subject to a restocking fee as per manufacturers
+              terms and conditions.
+            </li>
+            <li>
+              All returns must have an RGA number (Returned Goods
+              Authorization), unauthorized returns will not be accepted.
+            </li>
+            <li>
+              We do not guarantee fulfillment of any desired purpose or product
+              suitability to the user and this will not be considered as a valid
+              reason for return.
+            </li>
+            <li>
+              The products must be new, unused condition, not tampered with, in
+              original packaging and returned at the customers expense in the
+              original packaging.
+            </li>
+            <li>
+              If your return is not due to any manufacturing defect then the
+              original shipping cost will be deducted from the total refund.
+            </li>
+            <li>
+              Hygiene, bath and toilet items cannot be returned once opened or
+              used.
+            </li>
+            <li>
+              Standard manufacturer terms and conditions apply for return policy
+              of this product.
+            </li>
+          </ul>
+          <h1 className="font-bold  ml-10">
+            Please call us for specific details.
+          </h1>
+        </div>
+      </div>
     </div>
   )
 }
